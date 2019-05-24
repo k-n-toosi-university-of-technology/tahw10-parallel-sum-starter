@@ -1,1 +1,1 @@
-# tahw10-parallel-sum-starter
+# hw3-humble-fariborz
