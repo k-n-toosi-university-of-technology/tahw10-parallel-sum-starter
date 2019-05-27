@@ -22,7 +22,7 @@ public class ArraySummerThread {
      * @param start index of where to start of summation
      * @param end index of where to end of summation
      */
-    public Run(double[] input,int start,int end){
+    public ArraySummerThread(double[] input,int start,int end){
         this.input=input;
         this.start =start;
         this.end=end;
