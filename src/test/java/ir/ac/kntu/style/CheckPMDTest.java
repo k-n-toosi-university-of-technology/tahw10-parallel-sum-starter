@@ -71,14 +71,13 @@ public class CheckPMDTest {
         PMDConfiguration pmdConfiguration = new PMDConfiguration();
         pmdConfiguration.setRuleSets("category/java/bestpractices.xml/DefaultLabelNotLastInSwitchStmt,"
                 + "category/java/design.xml/ExcessiveMethodLength,"
-                + "category/java/errorprone.xml/UseEqualsToCompareStrings"
-                + "category/java/multithreading.xml/AvoidSynchronizedAtMethodLevel"
-                + "category/java/multithreading.xml/AvoidThreadGroup"
-                +"category/java/multithreading.xml/AvoidUsingVolatile"
-                +"category/java/multithreading.xml/DoNotUseThreads"
-                + "category/java/multithreading.xml/DontCallThreadRun"
-                +"category/java/multithreading.xml/DoubleCheckedLocking"
-                +"category/java/multithreading.xml/NonThreadSafeSingleton"
+                + "category/java/errorprone.xml/UseEqualsToCompareStrings,"
+                + "category/java/multithreading.xml/AvoidSynchronizedAtMethodLevel,"
+                + "category/java/multithreading.xml/AvoidThreadGroup,"
+                +"category/java/multithreading.xml/AvoidUsingVolatile,"
+                + "category/java/multithreading.xml/DontCallThreadRun,"
+                +"category/java/multithreading.xml/DoubleCheckedLocking,"
+                +"category/java/multithreading.xml/NonThreadSafeSingleton,"
                 +"category/java/multithreading.xml/UseNotifyAllInsteadOfNotify");
 
 
